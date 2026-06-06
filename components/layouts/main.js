@@ -3,7 +3,7 @@ import Head from 'next/head'
 // The component also uses the Box component from the Chakra UI library to create a container for the main content.
 import { Box, Container } from '@chakra-ui/react'
 
-const Main = ({children, router}) => {
+const Main = ({children, router: _router}) => {
     return (
         //the Box component is being used to create a container for the main content of the page.
         <Box as="main" pb={8}>
