@@ -1,17 +1,19 @@
-import Hero from '../components/sections/hero'
-import About from '../components/sections/about'
-import Education from '../components/sections/education'
-import Gallery from '../components/sections/gallery'
-import Interactions from '../components/sections/interactions'
+import Hero from '../components/cyber/hero'
+import About from '../components/cyber/about'
+import Work from '../components/cyber/work'
+import Gallery from '../components/cyber/gallery'
+import Projects from '../components/cyber/projects'
+import Contact from '../components/cyber/contact'
 
 const Page = () => {
   return (
     <>
       <Hero />
       <About />
-      <Education />
+      <Work />
       <Gallery />
-      <Interactions />
+      <Projects />
+      <Contact />
     </>
   )
 }
