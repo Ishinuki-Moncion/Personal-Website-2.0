@@ -64,7 +64,7 @@ const Hero = () => {
           >
             <Image
               src="/images/about.jpg"
-              alt="Daikie Moncion"
+              alt="Ishinuki Daikie"
               boxSize={{ base: '140px', md: '180px' }}
               borderRadius="full"
               objectFit="cover"
@@ -83,7 +83,7 @@ const Hero = () => {
               Hi, my name is
             </Text>
             <Heading as="h1" size="3xl" lineHeight={1.1} mt={1}>
-              Daikie Moncion
+              Ishinuki Daikie
             </Heading>
             <Flex
               justify="center"

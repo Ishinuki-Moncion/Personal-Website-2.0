@@ -10,9 +10,9 @@ const Main = ({ children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
-          content="Daikie Moncion — software developer, photographer, and artist based in Dallas, TX."
+          content="Ishinuki Daikie — software developer, photographer, and artist based in Tokyo, Japan."
         />
-        <title>Daikie Moncion — Software Developer &amp; Photographer</title>
+        <title>Ishinuki Daikie — Software Developer &amp; Photographer</title>
       </Head>
 
       <Navbar />

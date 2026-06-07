@@ -9,7 +9,7 @@ const About = () => (
         <Box>
           <Image
             src="/images/about.jpg"
-            alt="Daikie Moncion"
+            alt="Ishinuki Daikie"
             borderRadius="2xl"
             objectFit="cover"
             w="100%"
@@ -20,16 +20,20 @@ const About = () => (
         <VStack align="stretch" spacing={5}>
           <SectionTitle mb={2}>About Me</SectionTitle>
           <Text fontSize="lg" lineHeight={1.8} opacity={0.9}>
-            I&apos;m a software developer and an artist based in Dallas, TX, where I earned a
-            Bachelor&apos;s in Computer Science at The University of Texas at Dallas. As a hobby I
-            combine code with my interest in photography to find the right balance between
-            creativity and commercial sense.
+            I&apos;m Ishinuki Daikie, a developer who likes turning ideas into things people
+            actually use. I studied Computer Science at The University of Texas at Dallas and work
+            across the stack — React, Next.js, and Node/Express on PostgreSQL and REST APIs. Today
+            I&apos;m a Technical Producer at SeenThis Japan, building and converting advertising
+            materials into open-web digital ad banners in HTML, CSS, and JavaScript — I&apos;ve
+            shepherded 100+ campaigns from creation to execution alongside clients and internal
+            teams.
           </Text>
           <Text fontSize="lg" lineHeight={1.8} opacity={0.9}>
-            My second passion lies in blockchain and understanding decentralized autonomous
-            organizations, web3, NFTs, and smart contracts. This world keeps me inspired to
-            contribute back as a creator. You can check out my previous work and experiences below —
-            I consider photography a passion more than a profession.
+            I&apos;m based in Tokyo by way of Dallas. After UTD I followed a deeper pull toward
+            Japan and completed a Post-Graduate Program in Japan Studies at Soka University; I speak
+            native English and conversational Japanese (JLPT N3). Photography is a real practice for
+            me, not a side note — it&apos;s where the engineer and the artist in me meet, and
+            you&apos;ll find a gallery of that work just below.
           </Text>
         </VStack>
       </SimpleGrid>

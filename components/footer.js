@@ -18,7 +18,7 @@ const Footer = () => (
         spacing={4}
       >
         <Text opacity={0.7} fontSize="sm">
-          &copy; {new Date().getFullYear()} Daikie Moncion. Built with Next.js &amp; Chakra UI.
+          &copy; {new Date().getFullYear()} Ishinuki Daikie. Built with Next.js &amp; Chakra UI.
         </Text>
         <HStack spacing={1}>
           {socials.map((s) => (

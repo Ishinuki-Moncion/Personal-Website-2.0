@@ -21,7 +21,6 @@ const links = [
   { href: '#education', label: 'Education' },
   { href: '#gallery', label: 'Gallery' },
   { href: '#interactions', label: 'Interactions' },
-  { href: '#instagram', label: 'Instagram' },
 ]
 
 const NavLink = ({ href, children }) => (
@@ -57,7 +56,7 @@ const Navbar = () => {
         <Flex align="center">
           <Link href="#home" _hover={{ textDecoration: 'none' }}>
             <Heading as="span" size="md" letterSpacing="tight">
-              Daikie&nbsp;Moncion
+              Ishinuki&nbsp;Daikie
             </Heading>
           </Link>
           <Spacer />
